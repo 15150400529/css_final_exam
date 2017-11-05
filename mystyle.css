@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*导航*/
+
+.sum{
+    float: right;
+    position: relative;
+    right: 50%;
+    
+}
+.part{
+    float: right;
+      position: relative;
+    left: 50%;
+}
