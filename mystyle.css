@@ -19,3 +19,34 @@
 
     background-color: black;
 }
+
+.ah1{
+   text-align: right;
+    margin-right: 25%;
+    font-size: 350%;
+    margin-top: 10%;
+}
+.video{
+    margin-top: 5%;
+    padding-bottom: 20%;
+}
+.bh1{
+    text-align: right;
+    
+    font-size: 350%;
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+.table{
+ margin-top: 5%;
+   
+}
+
+.img{
+   width: 20%;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left:  5%;
+}
+
