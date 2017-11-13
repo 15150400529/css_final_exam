@@ -64,3 +64,31 @@
   margin-left: auto;
     margin-right: auto;
 }
+.login{
+    
+  float: left;
+    
+    padding-left: 93%;
+    margin-top: -65px;
+    
+}
+.login a{
+  float: left;
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+   text-align: center;
+    margin-right: 10px;
+   // border: 1px solid white;
+    border-radius: 3px;
+    background-color: gray;
+    color: white;
+    
+}
+.login a:hover{
+    background-color: brown;
+    text-decoration: none;
+}
+
+
