@@ -91,4 +91,27 @@
     text-decoration: none;
 }
 
+.loginput{
+    margin-top: 8%;
 
+}
+.logkuang{
+    display: flex;
+    justify-content: center;
+}
+.logk{
+    margin-left: -10%;
+}
+.splog{
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.logback{
+    margin-left: 60%;
+}
+#inputEmail3{
+    margin-left: 30px;
+}
+#inputPassword3{
+    margin-left: 30px;
+}
