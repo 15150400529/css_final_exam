@@ -169,7 +169,12 @@ margin-left: 20%;
 .news a{
     margin-left: 2%;
 }
-.rema img,span{
+.rema img{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.user{
     width: 50%;
     margin-left: 30%;
     margin-top: 10%;
