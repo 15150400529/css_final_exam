@@ -155,3 +155,17 @@ margin-left: 20%;
     margin-top: -3%;
 
 }
+/*资讯*/
+.newstotal{
+    margin-top: 10%;
+}
+.newsword h4{
+    padding-top: 2%;
+}
+.news{
+    display: inline-block;
+   padding-top: 2%;
+}
+.news a{
+    margin-left: 2%;
+}
