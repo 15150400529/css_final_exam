@@ -21,7 +21,15 @@
       .huaword{
         padding: 1% 5%;
     }
+     .z{
+        width: 100%;
     
+        margin-top: 5%;
+    }
+      .wobtn{
+        margin-top: 5%;
+    }
+
 }
 @media screen and (max-width:800px) and (min-width:500px){
      #icon{
@@ -39,5 +47,13 @@
     .huaword{
         padding: 1% 5%;
     }
-    
+    .z{
+        width:70%;
+       height: 50%;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    .wobtn{
+        margin-top: 5%;
+    }
 }
