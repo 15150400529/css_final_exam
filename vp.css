@@ -9,7 +9,12 @@
  margin-right: 5%;
     
 }
-    
+    .zximg{
+        margin-top: 10%;
+    }
+    .newsword h4{
+        padding-top: 5%;
+    }
     
     
 }
@@ -17,5 +22,12 @@
      #icon{
      margin-top: -60px;
     }
+        .zximg{
+        margin-top: 10%;
+    }
+    .newsword h4{
+        padding-top: 5%;
+    }
+    
     
 }
