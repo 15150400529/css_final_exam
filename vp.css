@@ -1,0 +1,21 @@
+@media screen and (max-width:500px){
+    #icon{
+     margin-top: -60px;
+    }
+    .video{
+        width: 100%;
+    }
+    .img{
+ margin-right: 5%;
+    
+}
+    
+    
+    
+}
+@media screen and (max-width:800px) and (min-width:500px){
+     #icon{
+     margin-top: -60px;
+    }
+    
+}
