@@ -1,283 +1,334 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
+
 /*导航*/
 
-.sum{
+.sum {
     float: right;
     position: relative;
     right: 50%;
-    
+
 }
-.part{
+
+.part {
     float: right;
-      position: relative;
+    position: relative;
     left: 50%;
 }
-.move{
+
+.move {
 
     background-color: black;
 }
 
-.ah1{
-   text-align: right;
+.ah1 {
+    text-align: right;
     margin-right: 25%;
     font-size: 350%;
     margin-top: 10%;
-    color:#6e6969;
+    color: #6e6969;
 }
-.video{
+
+.video {
     margin-top: 5%;
     padding-bottom: 20%;
-     width: 100%;
+    width: 100%;
 }
-.bh1{
+
+.bh1 {
     text-align: right;
-    color:#6e6969;
+    color: #6e6969;
     font-size: 350%;
     margin-top: 10%;
     padding-bottom: 5%;
 }
-.table{
- margin-top: 5%;
-   
+
+.table {
+    margin-top: 5%;
+
 }
-#loghide{
+
+#loghide {
     display: none;
 }
-.img{
-   width: 20%;
+
+.img {
+    width: 20%;
     height: auto;
     padding-top: 3%;
     padding-bottom: 3%;
-    margin-left:  5%;
+    margin-left: 5%;
 }
-.aah1{
+
+.aah1 {
     text-align: right;
     margin-right: 25%;
     font-size: 350%;
     margin-top: 15%;
     margin-bottom: 8%;
-    color:#6e6969;
+    color: #6e6969;
 }
-.item img{
+
+.item img {
     width: 100%;
 }
-td p{
+
+td p {
     color: #969696;
 }
+
 /*轮播图*/
-#myCarousel{
+
+#myCarousel {
     width: 80%;
-  margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
 }
-.login{
-    
-  float: left;
-    
+
+.login {
+
+    float: left;
+
     padding-left: 93%;
     margin-top: -65px;
-    
+
 }
+
 /*登录注册*/
-.login a{
-  float: left;
+
+.login a {
+    float: left;
     display: inline-block;
     width: 40px;
     height: 30px;
     line-height: 30px;
-   text-align: center;
-    margin-right: 10px;
-   // border: 1px solid white;
+    text-align: center;
+    margin-right: 10px; // border: 1px solid white;
     border-radius: 3px;
     background-color: gray;
     color: white;
-    
+
 }
 
-.login a:hover{
+.login a:hover {
     background-color: brown;
     text-decoration: none;
 }
 
-.loginput{
+.loginput {
     margin-top: 8%;
 
 }
-.logkuang{
+
+.logkuang {
     display: flex;
     justify-content: center;
 }
-.logk{
+
+.logk {
     margin-left: -10%;
 }
-.splog{
+
+.splog {
     margin-top: 15%;
     margin-bottom: 5%;
 }
-.logback{
+
+.logback {
     margin-left: 60%;
 }
-#inputEmail3{
-    margin-left:30px;
-}
-#inputPassword3{
+
+#inputEmail3 {
     margin-left: 30px;
 }
+
+#inputPassword3 {
+    margin-left: 30px;
+}
+
 /*商城页面*/
-.hot{
-   background-color: gainsboro;
+
+.hot {
+    background-color: gainsboro;
     padding: 0;
     margin-top: 5%;
-    
+
 }
-.hot img{
+
+.hot img {
     width: 100%;
     height: 550px;
 }
-.sale img{
+
+.sale img {
     width: 100%;
     height: 370px;
 }
-.sale1 img{
+
+.sale1 img {
     width: 100%;
     height: 370px;
-   
-    
+
+
 }
-.sale{
+
+.sale {
     margin-top: 5%;
     padding-bottom: 10%;
 }
-.sale1{
+
+.sale1 {
     margin-top: 5%;
     padding-bottom: 10%;
-    
+
 }
-.saleword{
+
+.saleword {
     margin-top: 10%;
     display: inline-block;
     color: dimgray;
 }
 
-.wobtn{
-margin-left: 20%;
+.wobtn {
+    margin-left: 20%;
     margin-top: -3%;
 
 }
+
 /*资讯*/
-.newstotal{
+
+.newstotal {
     margin-top: 10%;
 }
-.newsword span{
+
+.newsword span {
     color: darkgrey;
 }
-.newsword h2 a{
+
+.newsword h2 a {
     color: #c99a22;
 }
-.newsword h5{
-    color:darkgrey;
+
+.newsword h5 {
+    color: darkgrey;
 }
 
 
-.newsword h4{
+.newsword h4 {
     padding-top: 2%;
 }
-.news{
+
+.news {
     display: inline-block;
-   padding-top: 2%;
+    padding-top: 2%;
 }
-.newss h1{
-    color: darkgrey;
-}
-.newss h3 a{
-       color: #c99a22;
-}
-.newss span{
+
+.newss h1 {
     color: darkgrey;
 }
 
-.news a{
-    margin-left: 2%;
-}
-.rema img{
-    width: 50%;
-    margin-left: 30%;
-    margin-top: 10%;
-}
-.rema h2 a{
+.newss h3 a {
     color: #c99a22;
 }
-.rema p{
+
+.newss span {
     color: darkgrey;
 }
-.user{
-  color: grey
+
+.news a {
+    margin-left: 2%;
 }
-/*影评*/
-.user{
+
+.rema img {
     width: 50%;
     margin-left: 30%;
     margin-top: 10%;
 }
-.scene{
-   padding-top: 5%;
-}
-.scene h2
-{ 
+
+.rema h2 a {
     color: #c99a22;
 }
-.scene h4{
+
+.rema p {
+    color: darkgrey;
+}
+
+.user {
+    color: grey
+}
+
+/*影评*/
+
+.user {
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.scene {
+    padding-top: 5%;
+}
+
+.scene h2 {
+    color: #c99a22;
+}
+
+.scene h4 {
     margin-bottom: 3%;
     color: darkgrey;
 }
-.mp p{
+
+.mp p {
     color: darkgrey;
 }
-.himg{
-    width:100%;
-    
+
+.himg {
+    width: 100%;
+
 }
 
-#back{
+#back {
     background-color: transparent;
     border: 1px solid #DCDCDC;
     padding: 5px 5px;
-    color: 	#4682B4;
-    border-radius:8%;
+    color: #4682B4;
+    border-radius: 8%;
 }
-#back:hover{
+
+#back:hover {
     background-color: whitesmoke;
     border: 1px solid #DCDCDC;
     padding: 5px 5px;
     color: dodgerblue;
-    border-radius:8%;
+    border-radius: 8%;
 }
 
-#bac{
+#bac {
     background-color: transparent;
     border: 1px solid #222222;
     padding: 5px 5px;
-    color: 	#4682B4;
-    border-radius:8%;
+    color: #4682B4;
+    border-radius: 8%;
 }
-#bac:hover{
+
+#bac:hover {
     background-color: whitesmoke;
     border: 1px solid #222222;
     padding: 5px 5px;
     color: dodgerblue;
-    border-radius:8%;
+    border-radius: 8%;
 }
 
-.pagination li a{
+.pagination li a {
     background-color: transparent;
 }
-.conticon img{
-   width: 3%;
+
+.conticon img {
+    width: 3%;
     margin-right: 1%;
     margin-top: -7%;
-   
-       
+
+
 }

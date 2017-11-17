@@ -1,97 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>登录</title>
-       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/mystyle.css">
+    <link rel="stylesheet" href="../css/mystyle.css">
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.js"></script>
     <![ednif]-->
 </head>
+
 <body>
     <!--导航条-->
-          <div class="container" id="logg">
-           <div class="splog">
+    <div class="container" id="logg">
+        <div class="splog">
             <a href="#" class="text-center "><span><h3>SPIDER-MAN</h3><h5>系&nbsp;列&nbsp;电&nbsp;影&nbsp;中&nbsp;文&nbsp;网</h5></span></a>
-            </div>
-            <div class="logkuang" id="whole">
+        </div>
+        <div class="logkuang" id="whole">
             <div class="row logk">
-            <span style="padding-left: 46%;">没有账号？ 点击<a href="register.html">注册</a></span>
-            <form class="form-horizontal loginput">
-  <div class="form-group ">
-    <label for="inputEmail3" class="col-sm-2 control-label" >Username</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control name" id="inputEmail3" placeholder="用户名  (hello)">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control password" id="inputPassword3" placeholder="密码  (123)">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <div class="checkbox">
-        <label>
+                <span style="padding-left: 46%;">没有账号？ 点击<a href="register.html">注册</a></span>
+                <form class="form-horizontal loginput">
+                    <div class="form-group ">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control name" id="inputEmail3" placeholder="用户名  (hello)">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control password" id="inputPassword3" placeholder="密码  (123)">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
           <input type="checkbox"> 记住我
         </label>
-      </div>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button  class="btn btn-default" onclick="check()"><a href="#">登&nbsp;录</a></button>
-      <span style="margin-left: 5%;color: red;display: none;" id="wrong">登录失败&nbsp;!</span>
-    </div>
- 
-  </div>
-</form>
-     <input type="button" name="submit" onclick="javascript:history.back(-1);" value="返回上一页" class="logback" id="back">
-      </div>
-       </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button class="btn btn-default" onclick="check()"><a href="#">登&nbsp;录</a></button>
+                            <span style="margin-left: 5%;color: red;display: none;" id="wrong">登录失败&nbsp;!</span>
+                        </div>
+
+                    </div>
+                </form>
+                <input type="button" name="submit" onclick="javascript:history.back(-1);" value="返回上一页" class="logback" id="back">
+            </div>
         </div>
-        
-        <div class="container text-center" style="margin-top: 3%;line-height: 200%;display: none;" id="hidebutton">
-           <button  class="btn btn-default" onclick="check()"><a href="/home.html">&nbsp;&nbsp;主&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页&nbsp;&nbsp;</a></button><br><br>
-           <button  class="btn btn-default" onclick="check()"><a href="manage.html">后&nbsp;台&nbsp;管&nbsp;理</a></button>
-        </div>
-        
-        
-        
-        <script>
-           
-      
-        function check()
-            {
-               var x=document.getElementById("inputEmail3").value;
-                var y=document.getElementById("inputPassword3").value;
-                var f=document.getElementById("wrong");
-                var w=document.getElementById("whole");
-                var h=document.getElementById("hidebutton");
-                if(x=="hello"&&y=="123"){
-                    console.log("登陆成功");
-                    w.style.display="none";
-                    h.style.display="block";
-                
-                }
-                else{
-                    console.log("登录失败");
-                    f.style.display="inline";
-                    
-                }
+    </div>
+
+    <div class="container text-center" style="margin-top: 3%;line-height: 200%;display: none;" id="hidebutton">
+        <button class="btn btn-default" onclick="check()"><a href="../home.html">&nbsp;&nbsp;主&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页&nbsp;&nbsp;</a></button><br><br>
+        <button class="btn btn-default" onclick="check()"><a href="manage.html">后&nbsp;台&nbsp;管&nbsp;理</a></button>
+    </div>
+
+
+
+    <script>
+        function check() {
+            var x = document.getElementById("inputEmail3").value;
+            var y = document.getElementById("inputPassword3").value;
+            var f = document.getElementById("wrong");
+            var w = document.getElementById("whole");
+            var h = document.getElementById("hidebutton");
+            if (x == "hello" && y == "123") {
+                console.log("登陆成功");
+                w.style.display = "none";
+                h.style.display = "block";
+
+            } else {
+                console.log("登录失败");
+                f.style.display = "inline";
+
             }
-    
-    
-    
+        }
+
     </script>
-    </body>
-    
-    
-    
-    
+</body>
+
+
+
+
 
 </html>
