@@ -154,6 +154,7 @@ td p{
 .saleword{
     margin-top: 10%;
     display: inline-block;
+    color: dimgray;
 }
 
 .wobtn{
@@ -165,6 +166,17 @@ margin-left: 20%;
 .newstotal{
     margin-top: 10%;
 }
+.newsword span{
+    color: darkgrey;
+}
+.newsword h2 a{
+    color: #c99a22;
+}
+.newsword h5{
+    color:darkgrey;
+}
+
+
 .newsword h4{
     padding-top: 2%;
 }
@@ -172,6 +184,16 @@ margin-left: 20%;
     display: inline-block;
    padding-top: 2%;
 }
+.newss h1{
+    color: darkgrey;
+}
+.newss h3 a{
+       color: #c99a22;
+}
+.newss span{
+    color: darkgrey;
+}
+
 .news a{
     margin-left: 2%;
 }
@@ -180,6 +202,16 @@ margin-left: 20%;
     margin-left: 30%;
     margin-top: 10%;
 }
+.rema h2 a{
+    color: #c99a22;
+}
+.rema p{
+    color: darkgrey;
+}
+.user{
+  color: grey
+}
+
 .user{
     width: 50%;
     margin-left: 30%;
@@ -188,8 +220,16 @@ margin-left: 20%;
 .scene{
    padding-top: 5%;
 }
+.scene h2
+{ 
+    color: #c99a22;
+}
 .scene h4{
     margin-bottom: 3%;
+    color: darkgrey;
+}
+.mp p{
+    color: darkgrey;
 }
 .himg{
     width:100%;
@@ -206,6 +246,21 @@ margin-left: 20%;
 #back:hover{
     background-color: whitesmoke;
     border: 1px solid #DCDCDC;
+    padding: 5px 5px;
+    color: dodgerblue;
+    border-radius:8%;
+}
+
+#bac{
+    background-color: transparent;
+    border: 1px solid #222222;
+    padding: 5px 5px;
+    color: 	#4682B4;
+    border-radius:8%;
+}
+#bac:hover{
+    background-color: whitesmoke;
+    border: 1px solid #222222;
     padding: 5px 5px;
     color: dodgerblue;
     border-radius:8%;
