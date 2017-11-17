@@ -43,7 +43,9 @@
  margin-top: 5%;
    
 }
-
+#loghide{
+    display: none;
+}
 .img{
    width: 20%;
     height: auto;
@@ -264,4 +266,8 @@ margin-left: 20%;
     padding: 5px 5px;
     color: dodgerblue;
     border-radius:8%;
+}
+
+.pagination li a{
+    background-color: transparent;
 }

@@ -29,9 +29,15 @@
       .wobtn{
         margin-top: 5%;
     }
-
+    .login{
+        display: none;
+    }
+  
+     #loghide{
+        display: inline-block;
+    }
 }
-@media screen and (max-width:800px) and (min-width:500px){
+@media screen and (max-width:900px) and (min-width:500px){
      #icon{
      margin-top: -60px;
     }
@@ -55,5 +61,13 @@
     }
     .wobtn{
         margin-top: 5%;
+    }
+      .login{
+        display: none;
+    }
+   
+   
+    #loghide{
+        display: inline-block;
     }
 }
